@@ -2,12 +2,15 @@ name: profile
 
 # Rebuilds the pixel profile: app cards from lrvdlinden.app/apps.json,
 # live GitHub stats, and the contribution snake (on the "output" branch).
+# Elk uur wordt gekeken of apps.json op lrvdlinden.app is veranderd (bijv. een nieuwe app):
+# alleen dan wordt het profiel opnieuw gebouwd. Eén keer per dag volgt een volledige ververs.
 on:
   push:
     branches: [main]
     paths-ignore: ["assets/**", "README.md", "data/**"]
   schedule:
     - cron: "17 4 * * *"
+    - cron: "47 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,11 +26,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Apps op lrvdlinden.app gewijzigd?
+        id: check
+        run: |
+          if [ "${{ github.event.schedule }}" != "47 * * * *" ]; then echo "run=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if ! curl -fsSL --max-time 30 -A "LRvdLinden-profile-builder" https://lrvdlinden.app/apps.json -o /tmp/apps.json; then
+            echo "apps.json niet bereikbaar, volgende keer opnieuw."; echo "run=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if cmp -s /tmp/apps.json data/apps.json; then echo "Geen wijzigingen in de apps."; echo "run=0" >> "$GITHUB_OUTPUT"
+          else echo "Apps gewijzigd, profiel wordt bijgewerkt."; echo "run=1" >> "$GITHUB_OUTPUT"; fi
+
       - uses: actions/setup-python@v5
+        if: steps.check.outputs.run == '1'
         with:
           python-version: "3.12"
 
       - name: Build SVGs + README
+        if: steps.check.outputs.run == '1'
         run: |
           pip install --quiet fonttools pillow
           python scripts/build.py
@@ -36,13 +50,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Commit changes
+        if: steps.check.outputs.run == '1'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A assets data README.md
-          git diff --cached --quiet || (git commit -m "chore: refresh profile [skip ci]" && git push)
+          git diff --cached --quiet || (git commit -m "chore: refresh profile [skip ci]" && (git push || (git pull --rebase -q && git push)))
 
       - name: Contribution snake
+        if: github.event.schedule != '47 * * * *'
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -51,6 +67,7 @@ jobs:
             dist/github-snake-dark.svg?color_snake=#ffec27&color_dots=#161d2b,#1d2b53,#1666c5,#29adff,#00e436
 
       - name: Publish snake to output branch
+        if: github.event.schedule != '47 * * * *'
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
