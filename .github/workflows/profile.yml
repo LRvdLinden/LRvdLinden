@@ -1,0 +1,59 @@
+name: profile
+
+# Rebuilds the pixel profile: app cards from lrvdlinden.app/apps.json,
+# live GitHub stats, and the contribution snake (on the "output" branch).
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["assets/**", "README.md", "data/**"]
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build SVGs + README
+        run: |
+          pip install --quiet fonttools pillow
+          python scripts/build.py
+        env:
+          # Optional: add a PROFILE_TOKEN secret (classic PAT, read:user) to count private contributions too
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets data README.md
+          git diff --cached --quiet || (git commit -m "chore: refresh profile [skip ci]" && git push)
+
+      - name: Contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#d1003a&color_dots=#eef1f5,#bfe9cf,#7fd6a0,#29b866,#00873c
+            dist/github-snake-dark.svg?color_snake=#ffec27&color_dots=#161d2b,#1d2b53,#1666c5,#29adff,#00e436
+
+      - name: Publish snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
