@@ -4,6 +4,7 @@
         {
             "id": "app-lrvdlinden-bekendr",
             "name": "bekendr",
+            "added": "2026-11-11",
             "section": "ios",
             "status": "live",
             "featured": true,
@@ -37,7 +38,7 @@
             },
             "promo": {
                 "image": {
-                    "nl": "img/promo-app-lrvdlinden-bekendr-nl.webp"
+                    "nl": "app-content/bekendr/promo-nl.webp"
                 },
                 "show": true
             },
@@ -172,7 +173,6 @@
             "promo": {
                 "show": true,
                 "image": {
-                    "nl": "app-content/a-alerts/promo-nl.webp",
                     "en": "img/promo-nl-lrvdlinden-aalerts-en.webp"
                 }
             },
