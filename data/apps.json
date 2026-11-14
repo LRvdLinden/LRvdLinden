@@ -1287,6 +1287,40 @@
             "added": "2026-11-13"
         },
         {
+            "id": "112heli",
+            "name": "112Heli",
+            "section": "ios",
+            "status": "dev",
+            "featured": true,
+            "category": "utilities",
+            "description": {
+                "nl": "Zie live waar de Lifeliner, de politiehelikopter Zulu, de Kustwacht en Defensie vliegen. Je krijgt een melding bij het opstijgen en ziet de landingsplek. De app is gratis."
+            },
+            "links": {
+                "website": "https://112heli.lrvdlinden.app"
+            },
+            "history": [],
+            "added": "2026-11-14",
+            "nlOnly": true,
+            "icon": "img/112heli.webp",
+            "subtitle": {
+                "nl": "Helikoptervolger"
+            },
+            "platforms": [
+                "iPhone",
+                "iPad",
+                "Mac",
+                "Apple TV",
+                "Web"
+            ],
+            "promo": {
+                "show": true,
+                "image": {
+                    "nl": "app-content/112heli/promo-nl.webp"
+                }
+            }
+        },
+        {
             "id": "homey-appstoreconnect",
             "name": "App Store Connect",
             "section": "homey",
