@@ -173,7 +173,8 @@
             "promo": {
                 "show": true,
                 "image": {
-                    "en": "img/promo-nl-lrvdlinden-aalerts-en.webp"
+                    "en": "img/promo-nl-lrvdlinden-aalerts-en.webp",
+                    "nl": "app-content/a-alerts/promo-nl.webp"
                 }
             },
             "languages": "NL",
@@ -358,6 +359,17 @@
                 "testflight": "https://testflight.apple.com/join/JW915fdA"
             },
             "history": [
+                {
+                    "version": "1.0.6",
+                    "date": "2026-11-14",
+                    "notes": {
+                        "en": "We’re working hard to improve the app so you can focus on what you want to watch, when you want to watch it, and how you want to enjoy it. That matters just as much.\n\nWe know there’s a lot to choose from. In this version, we’ve made several improvements to the gallery, making it easier for you to find the content you love to watch.",
+                        "nl": "We werken hard aan het verbeteren van de app, zodat je je kunt concentreren op wat je wilt kijken, wanneer je het wilt kijken en hoe je ervan wilt genieten. Dat is net zo belangrijk.\n\nWe weten dat er veel te kiezen valt. In deze versie hebben we verschillende verbeteringen aangebracht aan de galerij, waardoor het makkelijker voor je wordt om de content te vinden waar je graag naar kijkt."
+                    },
+                    "_src": {
+                        "en": "We’re working hard to improve the app so you can focus on what you want to watch, when you want to watch it, and how you want to enjoy it. That matters just as much.\n\nWe know there’s a lot to choose from. In this version, we’ve made several improvements to the gallery, making it easier for you to find the content you love to watch."
+                    }
+                },
                 {
                     "version": "1.0.5",
                     "date": "2026-11-08",
