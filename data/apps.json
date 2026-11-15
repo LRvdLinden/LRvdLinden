@@ -1290,14 +1290,15 @@
             "id": "112heli",
             "name": "112Heli",
             "section": "ios",
-            "status": "dev",
+            "status": "beta",
             "featured": true,
             "category": "utilities",
             "description": {
                 "nl": "Zie live waar de Lifeliner, de politiehelikopter Zulu, de Kustwacht en Defensie vliegen. Je krijgt een melding bij het opstijgen en ziet de landingsplek. De app is gratis."
             },
             "links": {
-                "website": "https://112heli.lrvdlinden.app"
+                "website": "https://112heli.lrvdlinden.app",
+                "testflight": "https://testflight.apple.com/join/Ny4spxzr"
             },
             "history": [],
             "added": "2026-11-14",
