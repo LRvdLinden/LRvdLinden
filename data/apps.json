@@ -875,8 +875,7 @@
                 "en": "Your Weekdot calendar in Homey: Flows for your appointments and daily agenda, plus a calendar widget."
             },
             "links": {
-                "homey": "https://homey.app/nl-nl/app/nl.lrvdlinden.weekdot/",
-                "homeyTest": "https://homey.app/nl-nl/app/nl.lrvdlinden.weekdot/Weekdot/test/"
+                "homey": "https://homey.app/nl-nl/app/nl.lrvdlinden.weekdot/"
             },
             "promo": {
                 "image": {
@@ -886,6 +885,18 @@
                 "show": true
             },
             "history": [
+                {
+                    "version": "1.0.6",
+                    "date": "2026-11-11",
+                    "notes": {
+                        "nl": "Widget Volgend videogesprek: in de kleur van de dienst (Teams paars, Meet groen, Zoom blauw…), helemaal ingekleurd vanaf 10 minuten voor de start, net als de knoppen Deelnemen in Weekdot.",
+                        "en": "Next video call widget: the service's own colour (Teams purple, Meet green, Zoom blue…), filled in from 10 minutes before the start, just like the Join buttons in Weekdot."
+                    },
+                    "_src": {
+                        "nl": "Widget Volgend videogesprek: in de kleur van de dienst (Teams paars, Meet groen, Zoom blauw…), helemaal ingekleurd vanaf 10 minuten voor de start, net als de knoppen Deelnemen in Weekdot.",
+                        "en": "Next video call widget: the service's own colour (Teams purple, Meet green, Zoom blue…), filled in from 10 minutes before the start, just like the Join buttons in Weekdot."
+                    }
+                },
                 {
                     "version": "1.0.5",
                     "date": "2026-11-11",
@@ -998,8 +1009,8 @@
                             "nl": "Agenda",
                             "en": "Agenda"
                         },
-                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/agenda/preview-light.png",
-                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/agenda/preview-dark.png"
+                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/agenda/preview-light.png",
+                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/agenda/preview-dark.png"
                     },
                     {
                         "id": "countdown",
@@ -1007,8 +1018,8 @@
                             "nl": "Aftellen",
                             "en": "Countdown"
                         },
-                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/countdown/preview-light.png",
-                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/countdown/preview-dark.png"
+                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/countdown/preview-light.png",
+                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/countdown/preview-dark.png"
                     },
                     {
                         "id": "free_busy",
@@ -1016,8 +1027,8 @@
                             "nl": "Vrij of bezet",
                             "en": "Free or busy"
                         },
-                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/free_busy/preview-light.png",
-                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/free_busy/preview-dark.png"
+                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/free_busy/preview-light.png",
+                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/free_busy/preview-dark.png"
                     },
                     {
                         "id": "month",
@@ -1025,8 +1036,17 @@
                             "nl": "Minimaand",
                             "en": "Mini month"
                         },
-                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/month/preview-light.png",
-                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/month/preview-dark.png"
+                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/month/preview-light.png",
+                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/month/preview-dark.png"
+                    },
+                    {
+                        "id": "next_call",
+                        "name": {
+                            "nl": "Volgend videogesprek",
+                            "en": "Next video call"
+                        },
+                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/next_call/preview-light.png",
+                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/next_call/preview-dark.png"
                     },
                     {
                         "id": "next_event",
@@ -1034,8 +1054,8 @@
                             "nl": "Volgende afspraak",
                             "en": "Next event"
                         },
-                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/next_event/preview-light.png",
-                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/next_event/preview-dark.png"
+                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/next_event/preview-light.png",
+                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/next_event/preview-dark.png"
                     },
                     {
                         "id": "timeline",
@@ -1043,8 +1063,8 @@
                             "nl": "Tijdlijn van vandaag",
                             "en": "Today's timeline"
                         },
-                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/timeline/preview-light.png",
-                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/timeline/preview-dark.png"
+                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/timeline/preview-light.png",
+                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/timeline/preview-dark.png"
                     },
                     {
                         "id": "week",
@@ -1052,8 +1072,8 @@
                             "nl": "Deze week",
                             "en": "This week"
                         },
-                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/week/preview-light.png",
-                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/11/f0206ab4-bdf5-426f-a32f-9a371adaf72a/widgets/week/preview-dark.png"
+                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/week/preview-light.png",
+                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.weekdot/13/03f1e4be-e5b5-4869-96e2-9f70a7862ed2/widgets/week/preview-dark.png"
                     }
                 ],
                 "flow": {
@@ -1063,6 +1083,27 @@
                             "title": {
                                 "nl": "Dagagenda op een vast tijdstip",
                                 "en": "Daily agenda at a set time"
+                            }
+                        },
+                        {
+                            "id": "call_ended",
+                            "title": {
+                                "nl": "Een videogesprek eindigt",
+                                "en": "A video call ends"
+                            }
+                        },
+                        {
+                            "id": "call_started",
+                            "title": {
+                                "nl": "Een videogesprek begint",
+                                "en": "A video call starts"
+                            }
+                        },
+                        {
+                            "id": "call_starts_in",
+                            "title": {
+                                "nl": "Een videogesprek begint over … minuten",
+                                "en": "A video call starts in … minutes"
                             }
                         },
                         {
@@ -1094,14 +1135,35 @@
                             }
                         },
                         {
+                            "id": "first_event_starts_in",
+                            "title": {
+                                "nl": "De eerste afspraak van de dag begint over … minuten",
+                                "en": "The first event of the day starts in … minutes"
+                            }
+                        },
+                        {
                             "id": "schedule_received",
                             "title": {
                                 "nl": "Weekdot heeft nieuwe afspraken gestuurd",
                                 "en": "Weekdot sent new events"
                             }
+                        },
+                        {
+                            "id": "time_to_leave",
+                            "title": {
+                                "nl": "Het is tijd om te vertrekken naar een afspraak",
+                                "en": "It's time to leave for an event"
+                            }
                         }
                     ],
                     "conditions": [
+                        {
+                            "id": "busy_now",
+                            "title": {
+                                "nl": "Ik ben bezet",
+                                "en": "I'm busy"
+                            }
+                        },
                         {
                             "id": "event_in_days",
                             "title": {
@@ -1128,6 +1190,13 @@
                             "title": {
                                 "nl": "Er is morgen een afspraak",
                                 "en": "There is an event tomorrow"
+                            }
+                        },
+                        {
+                            "id": "in_call",
+                            "title": {
+                                "nl": "Ik zit in een videogesprek",
+                                "en": "I'm in a video call"
                             }
                         }
                     ],
@@ -1156,8 +1225,7 @@
                 "homepage": "https://lrvdlinden.app",
                 "support": "https://community.homey.app/t/app-pro-weekdot/161566",
                 "category": "tools",
-                "live": "1.0.4",
-                "test": "1.0.6"
+                "live": "1.0.6"
             },
             "added": "2026-10-30"
         },
@@ -1268,7 +1336,7 @@
             "id": "app-lrvdlinden-noodpakket",
             "name": "Noodpakket",
             "section": "ios",
-            "status": "beta",
+            "status": "live",
             "featured": true,
             "category": "utilities",
             "description": {
@@ -1276,9 +1344,16 @@
             },
             "links": {
                 "website": "https://noodpakket.lrvdlinden.app/",
-                "testflight": "https://testflight.apple.com/join/Uy8yGMFY"
+                "testflight": "https://testflight.apple.com/join/Uy8yGMFY",
+                "appstore": "https://apps.apple.com/nl/app/noodpakket-72-uur/id6833790723"
             },
-            "history": [],
+            "history": [
+                {
+                    "version": "1.0.0",
+                    "date": "2026-11-16",
+                    "notes": {}
+                }
+            ],
             "icon": "img/noodpakket.webp",
             "subtitle": {
                 "nl": "Scan, vul aan, altijd compleet"
@@ -1295,7 +1370,9 @@
                 "iPad",
                 "Android"
             ],
-            "added": "2026-11-13"
+            "added": "2026-11-13",
+            "size": "2,9 MB",
+            "languages": "NL + 1"
         },
         {
             "id": "112heli",
