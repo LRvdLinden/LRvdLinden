@@ -350,8 +350,8 @@
                 "en": "Live TV, movies and series from your own IPTV subscription or media server. Supports Xtream Codes, M3U, MAC Portal, Plex, Jellyfin, Emby, Stremio, NAS over SMB and XMLTV. With a TV guide, profiles, Multiview for up to four streams and sync across your devices."
             },
             "rating": 5.0,
-            "reviews": 2,
-            "size": "116,6 MB",
+            "reviews": 1,
+            "size": "118,4 MB",
             "languages": "NL + 10",
             "links": {
                 "appstore": "https://apps.apple.com/nl/app/bingr/id6821401598",
@@ -359,6 +359,17 @@
                 "testflight": "https://testflight.apple.com/join/JW915fdA"
             },
             "history": [
+                {
+                    "version": "1.0.7",
+                    "date": "2026-11-16",
+                    "notes": {
+                        "en": "We're working hard to improve Bingr so you can watch what you want, when you want, the way you want.\n\nNew in this version:\n• Sport: matches from your TV guide, with a bell at kick-off\n• Bingr Radio in CarPlay, with a Live Activity and a widget\n• A smarter player: start over, back to live, zap list, sleep timer and one menu for audio and subtitles\n• Hide channels and block titles per profile, and clean up messy categories\n• Fixes for Trakt sync, OpenSubtitles and the live preview",
+                        "nl": "We werken hard aan het verbeteren van Bingr zodat je kunt kijken wat je wilt, wanneer je wilt en zoals je wilt.\n\nNieuw in deze versie:\n• Sport: wedstrijden uit je tv-gids, met een belletje bij de aftrap\n• Bingr Radio in CarPlay, met een Live Activity en een widget\n• Een slimmere speler: opnieuw beginnen, terug naar live, zaplijst, slaaptimer en één menu voor audio en ondertiteling\n• Zenders verbergen en titels blokkeren per profiel, en rommelige categorieën opschonen\n• Oplossingen voor Trakt-synchronisatie, OpenSubtitles en de live preview"
+                    },
+                    "_src": {
+                        "en": "We're working hard to improve Bingr so you can watch what you want, when you want, the way you want.\n\nNew in this version:\n• Sport: matches from your TV guide, with a bell at kick-off\n• Bingr Radio in CarPlay, with a Live Activity and a widget\n• A smarter player: start over, back to live, zap list, sleep timer and one menu for audio and subtitles\n• Hide channels and block titles per profile, and clean up messy categories\n• Fixes for Trakt sync, OpenSubtitles and the live preview"
+                    }
+                },
                 {
                     "version": "1.0.6",
                     "date": "2026-11-14",
