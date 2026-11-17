@@ -44,7 +44,9 @@
             },
             "size": "2,2 MB",
             "languages": "NL",
-            "nlOnly": true
+            "nlOnly": true,
+            "rating": 5.0,
+            "reviews": 1
         },
         {
             "id": "app-lrvdlinden-pairr",
@@ -225,7 +227,9 @@
             },
             "size": "13,3 MB",
             "nlOnly": true,
-            "added": "2026-11-02"
+            "added": "2026-11-02",
+            "rating": 5.0,
+            "reviews": 1
         },
         {
             "id": "nl-lrvdlinden-weekdot",
@@ -350,7 +354,7 @@
                 "en": "Live TV, movies and series from your own IPTV subscription or media server. Supports Xtream Codes, M3U, MAC Portal, Plex, Jellyfin, Emby, Stremio, NAS over SMB and XMLTV. With a TV guide, profiles, Multiview for up to four streams and sync across your devices."
             },
             "rating": 5.0,
-            "reviews": 1,
+            "reviews": 4,
             "size": "118,4 MB",
             "languages": "NL + 10",
             "links": {
