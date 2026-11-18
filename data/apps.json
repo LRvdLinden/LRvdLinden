@@ -147,7 +147,7 @@
             "id": "nl-lrvdlinden-aalerts",
             "name": "A-Alerts",
             "section": "ios",
-            "status": "beta",
+            "status": "live",
             "category": "utilities",
             "platforms": [
                 "iPhone",
@@ -164,9 +164,16 @@
             },
             "links": {
                 "testflight": "https://testflight.apple.com/join/xjwuY299",
-                "website": "https://p2000-apeldoorn.nl"
+                "website": "https://p2000-apeldoorn.nl",
+                "appstore": "https://apps.apple.com/nl/app/a-alerts/id6829732272"
             },
-            "history": [],
+            "history": [
+                {
+                    "version": "2.0.1",
+                    "date": "2026-11-17",
+                    "notes": {}
+                }
+            ],
             "icon": "img/nl-lrvdlinden-aalerts.webp",
             "subtitle": {
                 "nl": "P2000 en alerts in Apeldoorn",
@@ -179,9 +186,10 @@
                     "nl": "app-content/a-alerts/promo-nl.webp"
                 }
             },
-            "languages": "NL",
+            "languages": "NL + 1",
             "nlOnly": true,
-            "added": "2026-11-08"
+            "added": "2026-11-08",
+            "size": "16,0 MB"
         },
         {
             "id": "nl-lrvdlinden-pasr",
