@@ -237,7 +237,7 @@
             "nlOnly": true,
             "added": "2026-11-02",
             "rating": 5.0,
-            "reviews": 1
+            "reviews": 2
         },
         {
             "id": "nl-lrvdlinden-weekdot",
@@ -1384,7 +1384,9 @@
             ],
             "added": "2026-11-13",
             "size": "2,9 MB",
-            "languages": "NL + 1"
+            "languages": "NL + 1",
+            "rating": 5.0,
+            "reviews": 1
         },
         {
             "id": "112heli",
