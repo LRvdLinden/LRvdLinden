@@ -189,7 +189,7 @@
             "languages": "NL + 1",
             "nlOnly": true,
             "added": "2026-11-08",
-            "size": "16,0 MB"
+            "size": "22,6 MB"
         },
         {
             "id": "nl-lrvdlinden-pasr",
@@ -505,7 +505,7 @@
                 }
             ],
             "rating": 5.0,
-            "reviews": 1,
+            "reviews": 2,
             "promo": {
                 "image": {
                     "nl": "app-content/healthsync/promo-nl.webp",
