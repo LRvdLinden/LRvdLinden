@@ -887,7 +887,8 @@
                 "en": "Your Weekdot calendar in Homey: Flows for your appointments and daily agenda, plus a calendar widget."
             },
             "links": {
-                "homey": "https://homey.app/nl-nl/app/nl.lrvdlinden.weekdot/"
+                "homey": "https://homey.app/nl-nl/app/nl.lrvdlinden.weekdot/",
+                "homeyTest": "https://homey.app/nl-nl/app/nl.lrvdlinden.weekdot/Weekdot/test/"
             },
             "promo": {
                 "image": {
@@ -1237,7 +1238,8 @@
                 "homepage": "https://lrvdlinden.app",
                 "support": "https://community.homey.app/t/app-pro-weekdot/161566",
                 "category": "tools",
-                "live": "1.0.6"
+                "live": "1.0.6",
+                "test": "1.0.7"
             },
             "added": "2026-10-30"
         },
