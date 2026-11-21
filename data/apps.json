@@ -215,6 +215,16 @@
             },
             "history": [
                 {
+                    "version": "1.0.1",
+                    "date": "2026-11-20",
+                    "notes": {
+                        "nl": "We blijven Pasr continu verbeteren om jouw klantenkaarten nog sneller en makkelijker toegankelijk te maken!\n\nNieuw in deze versie:\n- Slimmere locatiemeldingen: Pasr toont nu pas een melding wanneer je binnen een straal van 5 meter van een winkel bent.\n- iPhone Duo: Pasr ondersteunt nu ook de nieuwe iPhone Duo.\n- Verbeteringen: Diverse optimalisaties en bugfixes voor een nog soepelere ervaring."
+                    },
+                    "_src": {
+                        "nl": "We blijven Pasr continu verbeteren om jouw klantenkaarten nog sneller en makkelijker toegankelijk te maken!\n\nNieuw in deze versie:\n- Slimmere locatiemeldingen: Pasr toont nu pas een melding wanneer je binnen een straal van 5 meter van een winkel bent.\n- iPhone Duo: Pasr ondersteunt nu ook de nieuwe iPhone Duo.\n- Verbeteringen: Diverse optimalisaties en bugfixes voor een nog soepelere ervaring."
+                    }
+                },
+                {
                     "version": "1.0.0",
                     "date": "2026-11-08",
                     "notes": []
@@ -263,6 +273,17 @@
                 "appstore": "https://apps.apple.com/us/app/weekdot/id6826670273"
             },
             "history": [
+                {
+                    "version": "1.0.5",
+                    "date": "2026-11-20",
+                    "notes": {
+                        "en": "What's New in This Version\n\nNew:\n• iPhone Duo is here! Weekdot now supports the new iPhone Duo.\n\nImprovements:\n• Performance improvements for a faster, smoother experience.\n• Various bug fixes and optimizations.\n\nWe're continuously improving Weekdot to make managing your calendar easier and more enjoyable.",
+                        "nl": "Wat is er nieuw in deze versie\n\nNieuw:\n• iPhone Duo is er! Weekdot ondersteunt nu de nieuwe iPhone Duo.\n\nVerbeteringen:\n• Prestatieverbeteringen voor een snellere, soepelere ervaring.\n• Diverse bugfixes en optimalisaties.\n\nWe blijven Weekdot verbeteren zodat je je agenda makkelijker en prettiger kunt beheren."
+                    },
+                    "_src": {
+                        "en": "What's New in This Version\n\nNew:\n• iPhone Duo is here! Weekdot now supports the new iPhone Duo.\n\nImprovements:\n• Performance improvements for a faster, smoother experience.\n• Various bug fixes and optimizations.\n\nWe're continuously improving Weekdot to make managing your calendar easier and more enjoyable."
+                    }
+                },
                 {
                     "version": "1.0.4",
                     "date": "2026-11-11",
