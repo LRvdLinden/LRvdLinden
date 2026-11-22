@@ -169,6 +169,16 @@
             },
             "history": [
                 {
+                    "version": "2.0.3",
+                    "date": "2026-11-22",
+                    "notes": {
+                        "nl": "We werken A-Alerts regelmatig bij, zodat de app snel, stabiel en betrouwbaar blijft. In deze versie hebben we de snelheid en de stabiliteit verbeterd, de pushmeldingen betrouwbaarder gemaakt en kleine foutjes opgelost.\n\nTevreden over A-Alerts? Laat een beoordeling achter in de App Store, dat helpt ons enorm. Vragen of tips? Je vindt ons via Instellingen › Hulp in de app."
+                    },
+                    "_src": {
+                        "nl": "We werken A-Alerts regelmatig bij, zodat de app snel, stabiel en betrouwbaar blijft. In deze versie hebben we de snelheid en de stabiliteit verbeterd, de pushmeldingen betrouwbaarder gemaakt en kleine foutjes opgelost.\n\nTevreden over A-Alerts? Laat een beoordeling achter in de App Store, dat helpt ons enorm. Vragen of tips? Je vindt ons via Instellingen › Hulp in de app."
+                    }
+                },
+                {
                     "version": "2.0.2",
                     "date": "2026-11-22",
                     "notes": {
@@ -199,7 +209,7 @@
             "languages": "NL + 1",
             "nlOnly": true,
             "added": "2026-11-08",
-            "size": "22,9 MB"
+            "size": "23,3 MB"
         },
         {
             "id": "nl-lrvdlinden-pasr",
