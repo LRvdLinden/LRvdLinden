@@ -169,6 +169,16 @@
             },
             "history": [
                 {
+                    "version": "2.0.2",
+                    "date": "2026-11-22",
+                    "notes": {
+                        "nl": "We werken A-Alerts regelmatig bij, zodat de app snel, stabiel en betrouwbaar blijft. In deze versie hebben we de snelheid en de stabiliteit verbeterd, de pushmeldingen betrouwbaarder gemaakt en kleine foutjes opgelost.\n\nTevreden over A-Alerts? Laat een beoordeling achter in de App Store, dat helpt ons enorm. Vragen of tips? Je vindt ons via Instellingen › Hulp in de app."
+                    },
+                    "_src": {
+                        "nl": "We werken A-Alerts regelmatig bij, zodat de app snel, stabiel en betrouwbaar blijft. In deze versie hebben we de snelheid en de stabiliteit verbeterd, de pushmeldingen betrouwbaarder gemaakt en kleine foutjes opgelost.\n\nTevreden over A-Alerts? Laat een beoordeling achter in de App Store, dat helpt ons enorm. Vragen of tips? Je vindt ons via Instellingen › Hulp in de app."
+                    }
+                },
+                {
                     "version": "2.0.1",
                     "date": "2026-11-17",
                     "notes": {}
@@ -189,7 +199,7 @@
             "languages": "NL + 1",
             "nlOnly": true,
             "added": "2026-11-08",
-            "size": "22,6 MB"
+            "size": "22,9 MB"
         },
         {
             "id": "nl-lrvdlinden-pasr",
@@ -214,6 +224,16 @@
                 "appstore": "https://apps.apple.com/nl/app/pasr-klantenkaarten/id6829229123"
             },
             "history": [
+                {
+                    "version": "1.0.2",
+                    "date": "2026-11-22",
+                    "notes": {
+                        "nl": "We werken Pasr regelmatig bij om de app sneller, betrouwbaarder en prettiger in gebruik te maken. In deze versie:\n\n- Kaart toevoegen: kies eerst tussen klantenkaart en cadeaukaart.\n- Meer soorten passen: kortingscodes, coupons, tickets en abonnementen.\n- Ruim 500 kaarten, met nieuwe logo's en kleuren in de echte huisstijl. Cadeaukaarten krijgen hun kaartontwerp als voorkant.\n- Gids bij je kaart: hoe lang een cadeaukaart geldig is en hoe je hem inwisselt, en wat een klantenkaart je oplevert.\n- Herinneringen aan je tegoed, ook zonder vervaldatum en desgewenst per e-mail.\n- Tot 4 foto's per pas, en een eigen foto als voorkant.\n- Slim sorteren: A tot Z, meest gebruikt of winkels in de buurt bovenaan.\n- Beter scannen met zoom en zaklamp.\n- Importeren uit andere apps, CSV en Apple Wallet.\n- Betere ondersteuning voor VoiceOver.\n- Nieuwe winkels en verbeteringen komen voortaan direct in de app, zonder update.\n- Diverse verbeteringen en oplossingen."
+                    },
+                    "_src": {
+                        "nl": "We werken Pasr regelmatig bij om de app sneller, betrouwbaarder en prettiger in gebruik te maken. In deze versie:\n\n- Kaart toevoegen: kies eerst tussen klantenkaart en cadeaukaart.\n- Meer soorten passen: kortingscodes, coupons, tickets en abonnementen.\n- Ruim 500 kaarten, met nieuwe logo's en kleuren in de echte huisstijl. Cadeaukaarten krijgen hun kaartontwerp als voorkant.\n- Gids bij je kaart: hoe lang een cadeaukaart geldig is en hoe je hem inwisselt, en wat een klantenkaart je oplevert.\n- Herinneringen aan je tegoed, ook zonder vervaldatum en desgewenst per e-mail.\n- Tot 4 foto's per pas, en een eigen foto als voorkant.\n- Slim sorteren: A tot Z, meest gebruikt of winkels in de buurt bovenaan.\n- Beter scannen met zoom en zaklamp.\n- Importeren uit andere apps, CSV en Apple Wallet.\n- Betere ondersteuning voor VoiceOver.\n- Nieuwe winkels en verbeteringen komen voortaan direct in de app, zonder update.\n- Diverse verbeteringen en oplossingen."
+                    }
+                },
                 {
                     "version": "1.0.1",
                     "date": "2026-11-20",
@@ -243,7 +263,7 @@
                 "nl": "Al je pasjes in één app",
                 "en": "All your cards in one app"
             },
-            "size": "13,3 MB",
+            "size": "14,2 MB",
             "nlOnly": true,
             "added": "2026-11-02",
             "rating": 5.0,
