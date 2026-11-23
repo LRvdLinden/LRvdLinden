@@ -191,7 +191,7 @@
                 {
                     "version": "2.0.1",
                     "date": "2026-11-17",
-                    "notes": {}
+                    "notes": []
                 }
             ],
             "icon": "img/nl-lrvdlinden-aalerts.webp",
@@ -209,7 +209,13 @@
             "languages": "NL + 1",
             "nlOnly": true,
             "added": "2026-11-08",
-            "size": "23,3 MB"
+            "size": "23,3 MB",
+            "chart": {
+                "nl": {
+                    "rank": 145,
+                    "genre": "Nieuws"
+                }
+            }
         },
         {
             "id": "nl-lrvdlinden-pasr",
@@ -677,10 +683,6 @@
             "platforms": [
                 "iPhone"
             ],
-            "badge": {
-                "nl": "Nr. 26 in Nieuws",
-                "en": "No. 26 in News"
-            },
             "description": {
                 "nl": "Wijkparticipatie-initiatief dat fungeert als klankbord tussen wijkbewoners en de gemeente Apeldoorn.",
                 "en": "Neighbourhood participation initiative that acts as a sounding board between residents and the municipality of Apeldoorn."
@@ -1416,7 +1418,7 @@
                 {
                     "version": "1.0.0",
                     "date": "2026-11-16",
-                    "notes": {}
+                    "notes": []
                 }
             ],
             "icon": "img/noodpakket.webp",
@@ -1474,6 +1476,49 @@
                 "image": {
                     "nl": "app-content/112heli/promo-nl.webp"
                 }
+            }
+        },
+        {
+            "id": "app-lrvdlinden-pasr-zakelijk",
+            "name": "Pasr Zakelijk",
+            "section": "ios",
+            "status": "live",
+            "description": {
+                "nl": "Met Pasr Zakelijk zet je stempels op de kaarten van je klanten: scan hun QR-code aan de kassa en wissel beloningen in. Je maakt ook je eigen stempelkaart en ziet per dag hoeveel stempels en nieuwe leden er zijn.",
+                "en": "With Pasr Zakelijk you add stamps to your customers' stamp cards: scan their QR code at the till and redeem rewards. You also create your own stamp card and see daily stamps and new members."
+            },
+            "links": {
+                "appstore": "https://apps.apple.com/nl/app/pasr-zakelijk/id6837907454",
+                "website": "https://pasr.nl/zakelijk"
+            },
+            "history": [
+                {
+                    "version": "1.0.0",
+                    "date": "2026-11-23",
+                    "notes": []
+                }
+            ],
+            "added": "2026-11-23",
+            "category": "business",
+            "platforms": [
+                "iPhone",
+                "iPad",
+                "Android",
+                "Web"
+            ],
+            "icon": "img/pasr-zakelijk.png",
+            "subtitle": {
+                "nl": "Zakelijke stempelkaart-app",
+                "en": "Business stamp card app"
+            },
+            "size": "2,6 MB",
+            "languages": "NL + 1",
+            "nlOnly": true,
+            "promo": {
+                "image": {
+                    "nl": "img/promo-app-lrvdlinden-pasr-zakelijk-nl.webp"
+                },
+                "show": true
             }
         },
         {
