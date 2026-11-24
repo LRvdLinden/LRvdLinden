@@ -218,7 +218,9 @@
             "languages": "NL + 1",
             "nlOnly": true,
             "added": "2026-11-08",
-            "size": "23,3 MB"
+            "size": "23,3 MB",
+            "rating": 5.0,
+            "reviews": 1
         },
         {
             "id": "nl-lrvdlinden-pasr",
@@ -1553,7 +1555,9 @@
                     "nl": "app-content/pasr-zakelijk/promo-nl.webp"
                 },
                 "show": true
-            }
+            },
+            "rating": 5.0,
+            "reviews": 1
         },
         {
             "id": "homey-appstoreconnect",
