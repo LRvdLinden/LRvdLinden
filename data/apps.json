@@ -114,7 +114,7 @@
             "id": "nl-lrvdlinden-liftr",
             "name": "Liftr",
             "section": "ios",
-            "status": "beta",
+            "status": "live",
             "category": "sports",
             "platforms": [
                 "iPhone",
@@ -126,22 +126,31 @@
                 "en": "Track every workout: sets, reps and weight per exercise. With a rest timer in your Dynamic Island, charts of your progress and your gym pass at hand."
             },
             "links": {
-                "testflight": "https://testflight.apple.com/join/bjhRGGG8"
+                "testflight": "https://testflight.apple.com/join/bjhRGGG8",
+                "appstore": "https://apps.apple.com/nl/app/liftr-gym-workout-log/id6830198247"
             },
-            "history": [],
+            "history": [
+                {
+                    "version": "1.0.0",
+                    "date": "2026-11-23",
+                    "notes": {}
+                }
+            ],
             "icon": "img/nl-lrvdlinden-liftr.webp",
             "subtitle": {
                 "nl": "Sets, gewicht en voortgang",
                 "en": "Sets, weight and progress"
             },
-            "languages": "NL + 31",
+            "languages": "NL + 32",
             "promo": {
                 "image": {
                     "nl": "app-content/liftr/promo-nl.webp",
                     "en": "app-content/liftr/promo-en.webp"
                 }
             },
-            "added": "2026-11-04"
+            "added": "2026-11-04",
+            "reviews": 0,
+            "size": "12,9 MB"
         },
         {
             "id": "nl-lrvdlinden-aalerts",
@@ -212,7 +221,7 @@
             "size": "23,3 MB",
             "chart": {
                 "nl": {
-                    "rank": 145,
+                    "rank": 158,
                     "genre": "Nieuws"
                 }
             }
@@ -420,7 +429,7 @@
             },
             "rating": 5.0,
             "reviews": 4,
-            "size": "118,4 MB",
+            "size": "120,2 MB",
             "languages": "NL + 10",
             "links": {
                 "appstore": "https://apps.apple.com/nl/app/bingr/id6821401598",
@@ -428,6 +437,17 @@
                 "testflight": "https://testflight.apple.com/join/JW915fdA"
             },
             "history": [
+                {
+                    "version": "1.1.0",
+                    "date": "2026-11-23",
+                    "notes": {
+                        "en": "What's new in Bingr 1.1.0\n\nNew: Bingr Premium\nChoose monthly, 6 months or yearly, or buy Lifetime once. New accounts can try Premium free for 3 days. Your servers, lists, profiles and settings are always kept. Existing Lifetime purchases keep full access.\n\nLive TV & TV guide\n• Catch-up now really works: watch earlier programmes from the start with one tap, also when your server is in another time zone\n• The TV guide goes back as far as your server allows and up to 7 days ahead\n• Live TV on the Lock Screen and in the Dynamic Island\n• Zap list with categories and search; on Apple TV, open it with a click left\n• Live TV no longer stops after half a minute: Bingr reconnects automatically and tries the other player if a stream won’t start\n• Channels, movies, series and the guide refresh automatically on a schedule you choose\n\nMovies & series\n• New & Popular with reminders on the release date\n• Ratings from IMDb, Rotten Tomatoes, Metacritic, Letterboxd, Trakt and TMDB\n• Thumbs up or down and a better For you row\n• Previews: posters come to life after 2 seconds\n• Skip intro and recap with per-episode times\n• Sort each category by name, year, added or rating\n• Turn playing the next episode automatically on or off per profile\n• WebDAV as a source\n\nSport\n• Live scores, standings, club and competition logos, and cards in team colours\n\nAlso new\n• Lock channels, movies and series with your PIN\n• Save data on cellular\n• Help centre in the app\n• Swipe to adjust brightness\n• Support for iPhone Duo\n• AirPlay and CarPlay (when parked) switch to the Apple player automatically\n• Siri Remote play/pause works again\n• Many fixes, including the TV guide freezing on Apple TV and a freeze on Home",
+                        "nl": "Wat is er nieuw in Bingr 1.1.0\n\nNieuw: Bingr Premium\nKies maandelijks, 6 maanden of jaarlijks, of koop Lifetime één keer. Nieuwe accounts kunnen Premium 3 dagen gratis proberen. Je servers, lijsten, profielen en instellingen blijven altijd bewaard. Bestaande Lifetime-aankopen behouden volledige toegang.\n\nLive-tv & tv-gids\n• Terugkijken werkt nu echt: bekijk eerdere programma's vanaf het begin met één tik, ook als je server in een andere tijdzone staat\n• De tv-gids gaat zo ver terug als je server toestaat en tot 7 dagen vooruit\n• Live-tv op het vergrendelscherm en in het Dynamic Island\n• Zaplijst met categorieën en zoeken; op Apple TV open je die met een klik naar links\n• Live-tv stopt niet meer na een halve minuut: Bingr maakt automatisch opnieuw verbinding en probeert de andere speler als een stream niet start\n• Zenders, films, series en de gids worden automatisch ververst op een schema dat je kiest\n\nFilms & series\n• Nieuw & populair met herinneringen op de releasedatum\n• Beoordelingen van IMDb, Rotten Tomatoes, Metacritic, Letterboxd, Trakt en TMDB\n• Duim omhoog of omlaag en een betere rij 'Voor jou'\n• Voorvertoningen: posters komen na 2 seconden tot leven\n• Intro en samenvatting overslaan met tijden per aflevering\n• Sorteer elke categorie op naam, jaar, toegevoegd of beoordeling\n• Automatisch de volgende aflevering afspelen aan of uit zetten per profiel\n• WebDAV als bron\n\nSport\n• Live scores, standen, logo's van clubs en competities, en kaarten in teamkleuren\n\nOok nieuw\n• Vergrendel zenders, films en series met je pincode\n• Data besparen op mobiel netwerk\n• Helpcentrum in de app\n• Veeg om helderheid aan te passen\n• Ondersteuning voor iPhone Duo\n• AirPlay en CarPlay (wanneer geparkeerd) schakelen automatisch over naar de Apple-speler\n• Afspelen/pauzeren met de Siri Remote werkt weer\n• Veel reparaties, waaronder het vastlopen van de tv-gids op Apple TV en een vastloper op Home"
+                    },
+                    "_src": {
+                        "en": "What's new in Bingr 1.1.0\n\nNew: Bingr Premium\nChoose monthly, 6 months or yearly, or buy Lifetime once. New accounts can try Premium free for 3 days. Your servers, lists, profiles and settings are always kept. Existing Lifetime purchases keep full access.\n\nLive TV & TV guide\n• Catch-up now really works: watch earlier programmes from the start with one tap, also when your server is in another time zone\n• The TV guide goes back as far as your server allows and up to 7 days ahead\n• Live TV on the Lock Screen and in the Dynamic Island\n• Zap list with categories and search; on Apple TV, open it with a click left\n• Live TV no longer stops after half a minute: Bingr reconnects automatically and tries the other player if a stream won’t start\n• Channels, movies, series and the guide refresh automatically on a schedule you choose\n\nMovies & series\n• New & Popular with reminders on the release date\n• Ratings from IMDb, Rotten Tomatoes, Metacritic, Letterboxd, Trakt and TMDB\n• Thumbs up or down and a better For you row\n• Previews: posters come to life after 2 seconds\n• Skip intro and recap with per-episode times\n• Sort each category by name, year, added or rating\n• Turn playing the next episode automatically on or off per profile\n• WebDAV as a source\n\nSport\n• Live scores, standings, club and competition logos, and cards in team colours\n\nAlso new\n• Lock channels, movies and series with your PIN\n• Save data on cellular\n• Help centre in the app\n• Swipe to adjust brightness\n• Support for iPhone Duo\n• AirPlay and CarPlay (when parked) switch to the Apple player automatically\n• Siri Remote play/pause works again\n• Many fixes, including the TV guide freezing on Apple TV and a freeze on Home"
+                    }
+                },
                 {
                     "version": "1.0.7",
                     "date": "2026-11-16",
@@ -1516,7 +1536,7 @@
             "nlOnly": true,
             "promo": {
                 "image": {
-                    "nl": "img/promo-app-lrvdlinden-pasr-zakelijk-nl.webp"
+                    "nl": "app-content/pasr-zakelijk/promo-nl.webp"
                 },
                 "show": true
             }
@@ -2721,11 +2741,22 @@
                 "en": "Live 112 alerts from the Lifeliner across the Netherlands."
             },
             "links": {
-                "homey": "https://homey.app/nl-nl/app/nl.lrvdlinden.lifeliner/",
-                "homeyTest": "https://homey.app/nl-nl/app/nl.lrvdlinden.lifeliner/Lifeliner/test/"
+                "homey": "https://homey.app/nl-nl/app/nl.lrvdlinden.lifeliner/"
             },
             "rating": 5.0,
             "history": [
+                {
+                    "version": "6.1.3",
+                    "date": "2026-11-16",
+                    "notes": {
+                        "nl": "Lifeliner-meldingen komen nu ook binnen als het filter van je internetprovider de server blokkeert, zoals KPN Veilig Browsen. De app schakelt dan automatisch over op beveiligde DNS-over-HTTPS. Bevat ook de stabiliteitsfixes uit de P2000-app die voorkomen dat de app crasht. Flowkaarten, widgets en instellingen zijn nu beschikbaar in alle 13 talen.",
+                        "en": "Lifeliner alerts now also arrive when your internet provider's filter blocks the server, such as KPN Veilig Browsen. The app then automatically switches to secure DNS-over-HTTPS. Also includes the stability fixes from the P2000 app that prevent the app from crashing. Flow cards, widgets and settings are now available in all 13 languages."
+                    },
+                    "_src": {
+                        "nl": "Lifeliner-meldingen komen nu ook binnen als het filter van je internetprovider de server blokkeert, zoals KPN Veilig Browsen. De app schakelt dan automatisch over op beveiligde DNS-over-HTTPS. Bevat ook de stabiliteitsfixes uit de P2000-app die voorkomen dat de app crasht. Flowkaarten, widgets en instellingen zijn nu beschikbaar in alle 13 talen.",
+                        "en": "Lifeliner alerts now also arrive when your internet provider's filter blocks the server, such as KPN Veilig Browsen. The app then automatically switches to secure DNS-over-HTTPS. Also includes the stability fixes from the P2000 app that prevent the app from crashing. Flow cards, widgets and settings are now available in all 13 languages."
+                    }
+                },
                 {
                     "version": "6.1.2",
                     "date": "2026-11-07",
@@ -2825,17 +2856,6 @@
                     "_src": {
                         "en": "bugfix"
                     }
-                },
-                {
-                    "version": "6.0.17",
-                    "date": "2026-05-13",
-                    "notes": {
-                        "en": "Reset button for widgets",
-                        "nl": "Resetknop voor widgets"
-                    },
-                    "_src": {
-                        "en": "Reset button for widgets"
-                    }
                 }
             ],
             "homey": {
@@ -2847,8 +2867,8 @@
                             "en": "Lifeliner"
                         },
                         "class": "other",
-                        "image": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/103/ab1167e4-7422-4224-9e7a-1c4afef1ef8c/drivers/lifeliner/assets/images/small.png",
-                        "icon": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/103/ab1167e4-7422-4224-9e7a-1c4afef1ef8c/drivers/lifeliner/assets/icon.svg"
+                        "image": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/104/5f6f3d59-69c0-4df4-9b06-54f241a67705/drivers/lifeliner/assets/images/small.png",
+                        "icon": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/104/5f6f3d59-69c0-4df4-9b06-54f241a67705/drivers/lifeliner/assets/icon.svg"
                     }
                 ],
                 "widgets": [
@@ -2858,8 +2878,8 @@
                             "nl": "Lifeliner Pager",
                             "en": "Lifeliner Pager"
                         },
-                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/103/ab1167e4-7422-4224-9e7a-1c4afef1ef8c/widgets/latest-p2000/preview-light.png",
-                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/103/ab1167e4-7422-4224-9e7a-1c4afef1ef8c/widgets/latest-p2000/preview-dark.png"
+                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/104/5f6f3d59-69c0-4df4-9b06-54f241a67705/widgets/latest-p2000/preview-light.png",
+                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/104/5f6f3d59-69c0-4df4-9b06-54f241a67705/widgets/latest-p2000/preview-dark.png"
                     },
                     {
                         "id": "p2000-map",
@@ -2867,8 +2887,8 @@
                             "nl": "Lifeliner Kaart",
                             "en": "Lifeliner Map"
                         },
-                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/103/ab1167e4-7422-4224-9e7a-1c4afef1ef8c/widgets/p2000-map/preview-light.png",
-                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/103/ab1167e4-7422-4224-9e7a-1c4afef1ef8c/widgets/p2000-map/preview-dark.png"
+                        "light": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/104/5f6f3d59-69c0-4df4-9b06-54f241a67705/widgets/p2000-map/preview-light.png",
+                        "dark": "https://apps.homeycdn.net/app/nl.lrvdlinden.lifeliner/104/5f6f3d59-69c0-4df4-9b06-54f241a67705/widgets/p2000-map/preview-dark.png"
                     }
                 ],
                 "flow": {
@@ -2876,22 +2896,22 @@
                         {
                             "id": "new_message",
                             "title": {
-                                "nl": "Een nieuwe melding is ontvangen",
-                                "en": "A new message has been received"
+                                "nl": "Een nieuwe P2000-melding is ontvangen",
+                                "en": "A new P2000 alert has been received"
                             }
                         },
                         {
                             "id": "websocket_message_offline",
                             "title": {
-                                "en": "P2000 is offline",
-                                "nl": "P2000 is offline"
+                                "nl": "P2000 is offline",
+                                "en": "P2000 is offline"
                             }
                         },
                         {
                             "id": "websocket_message_online",
                             "title": {
-                                "en": "P2000 is online",
-                                "nl": "P2000 is online"
+                                "nl": "P2000 is online",
+                                "en": "P2000 is online"
                             }
                         }
                     ],
@@ -2899,8 +2919,8 @@
                         {
                             "id": "capcode_condition",
                             "title": {
-                                "nl": "Capcode Conditie",
-                                "en": "Capcode Condition"
+                                "nl": "Capcode",
+                                "en": "Capcode"
                             }
                         },
                         {
@@ -2913,29 +2933,29 @@
                         {
                             "id": "grip_condition",
                             "title": {
-                                "nl": "GRIP Conditie",
-                                "en": "GRIP Condition"
+                                "nl": "GRIP",
+                                "en": "GRIP"
                             }
                         },
                         {
                             "id": "groep_condition",
                             "title": {
-                                "nl": "Groep Conditie",
-                                "en": "Groep Condition"
+                                "nl": "Groep",
+                                "en": "Group"
                             }
                         },
                         {
                             "id": "opschaling_condition",
                             "title": {
-                                "nl": "Opschaling Conditie",
-                                "en": "Opschaling Condition"
+                                "nl": "Opschaling",
+                                "en": "Upscaling"
                             }
                         },
                         {
                             "id": "prio_condition",
                             "title": {
-                                "nl": "Prio Conditie",
-                                "en": "Prio Condition"
+                                "nl": "Prio",
+                                "en": "Priority"
                             }
                         },
                         {
@@ -2976,8 +2996,8 @@
                         {
                             "id": "soortopschaling_condition",
                             "title": {
-                                "nl": "soortopschaling Conditie",
-                                "en": "Soortopschaling Condition"
+                                "nl": "Soort opschaling",
+                                "en": "Type of upscaling"
                             }
                         },
                         {
@@ -2992,8 +3012,8 @@
                         {
                             "id": "send_to_dashboard_widget",
                             "title": {
-                                "nl": "Stuur melding naar Lifeliner widgets",
-                                "en": "Send message to Lifeliner widgets"
+                                "nl": "Stuur melding naar P2000 widgets",
+                                "en": "Send message to P2000 widgets"
                             }
                         }
                     ]
@@ -3007,8 +3027,7 @@
                 "homepage": "https://p2000.xyz",
                 "support": "https://community.homey.app/t/app-pro-lifeline-alerts-for-homey/83742",
                 "category": "internet",
-                "live": "6.1.2",
-                "test": "6.1.3"
+                "live": "6.1.3"
             },
             "nlOnly": true,
             "added": "2026-10-24"
