@@ -444,6 +444,17 @@
             },
             "history": [
                 {
+                    "version": "1.1.1",
+                    "date": "2026-11-24",
+                    "notes": {
+                        "en": "We're working hard to improve the app so you can focus on what really matters: what you want to watch, when you want to watch it, and how you want to enjoy it.\n\nWe know there's a lot to choose from. In this version, we've made several improvements to the gallery, making it even easier to discover and find the content you love to watch.",
+                        "nl": "We werken hard aan het verbeteren van de app, zodat je je kunt concentreren op wat echt belangrijk is: wat je wilt kijken, wanneer je het wilt kijken en hoe je ervan wilt genieten.\n\nWe weten dat er veel te kiezen valt. In deze versie hebben we verschillende verbeteringen aan de galerij doorgevoerd, zodat het nog makkelijker is om de content te ontdekken en te vinden waar je van houdt om te kijken."
+                    },
+                    "_src": {
+                        "en": "We're working hard to improve the app so you can focus on what really matters: what you want to watch, when you want to watch it, and how you want to enjoy it.\n\nWe know there's a lot to choose from. In this version, we've made several improvements to the gallery, making it even easier to discover and find the content you love to watch."
+                    }
+                },
+                {
                     "version": "1.1.0",
                     "date": "2026-11-23",
                     "notes": {
