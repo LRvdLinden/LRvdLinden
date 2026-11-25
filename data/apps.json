@@ -403,7 +403,7 @@
             },
             "languages": "NL + 32",
             "size": "33,7 MB",
-            "reviews": 8,
+            "reviews": 9,
             "rating": 4.8,
             "added": "2026-10-25"
         },
@@ -1530,6 +1530,16 @@
             },
             "history": [
                 {
+                    "version": "1.0.3",
+                    "date": "2026-11-25",
+                    "notes": {
+                        "nl": "We werken Pasr Zakelijk regelmatig bij om je spaarkaarten nog makkelijker te beheren."
+                    },
+                    "_src": {
+                        "nl": "We werken Pasr Zakelijk regelmatig bij om je spaarkaarten nog makkelijker te beheren."
+                    }
+                },
+                {
                     "version": "1.0.2",
                     "date": "2026-11-24",
                     "notes": {
@@ -1558,7 +1568,7 @@
                 "nl": "Zakelijke stempelkaart-app",
                 "en": "Business stamp card app"
             },
-            "size": "2,6 MB",
+            "size": "3,3 MB",
             "languages": "NL + 1",
             "nlOnly": true,
             "promo": {
