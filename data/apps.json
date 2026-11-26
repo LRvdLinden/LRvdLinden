@@ -53,7 +53,6 @@
             "name": "Pairr",
             "section": "ios",
             "status": "dev",
-            "featured": true,
             "category": "utilities",
             "platforms": [
                 "iPhone",
@@ -88,7 +87,6 @@
             "name": "Homio",
             "section": "ios",
             "status": "dev",
-            "featured": true,
             "category": "utilities",
             "platforms": [
                 "iPhone",
@@ -133,7 +131,7 @@
                 {
                     "version": "1.0.0",
                     "date": "2026-11-23",
-                    "notes": {}
+                    "notes": []
                 }
             ],
             "icon": "img/nl-lrvdlinden-liftr.webp",
@@ -150,7 +148,8 @@
             },
             "added": "2026-11-04",
             "reviews": 0,
-            "size": "12,9 MB"
+            "size": "12,9 MB",
+            "featured": true
         },
         {
             "id": "nl-lrvdlinden-aalerts",
@@ -220,7 +219,14 @@
             "added": "2026-11-08",
             "size": "23,3 MB",
             "rating": 5.0,
-            "reviews": 1
+            "reviews": 1,
+            "featured": true,
+            "chart": {
+                "nl": {
+                    "rank": 159,
+                    "genre": "Nieuws"
+                }
+            }
         },
         {
             "id": "nl-lrvdlinden-pasr",
@@ -245,6 +251,16 @@
                 "appstore": "https://apps.apple.com/nl/app/pasr-klantenkaarten/id6829229123"
             },
             "history": [
+                {
+                    "version": "1.0.4",
+                    "date": "2026-11-25",
+                    "notes": {
+                        "nl": "We werken Pasr regelmatig bij om je kaarten nog makkelijker bij de hand te hebben. \n\nDit is er nieuw:\n• Stempelkaarten: spaar stempels bij je bakker, kapper of koffiebar. Zoek de zaak in Pasr of scan de QR-code bij de kassa. De ondernemer zet de stempel, jij ziet je stand direct\n• Je Wallet-pas werkt zichzelf bij, ook als er een stempel bij komt\n• Verjaardagsvoordeel: vul je verjaardag in en Pasr laat je weten bij welke winkels je iets extra's krijgt\n• Nieuws over mijn kaarten: zet het aan en ontvang alleen berichten over winkels waarvan je een kaart hebt\n• Een gedeelde kaart ziet er op pasr.nl nog beter uit, nu ook voor tickets, abonnementen en stempelkaarten\n• Kleine verbeteringen en oplossingen"
+                    },
+                    "_src": {
+                        "nl": "We werken Pasr regelmatig bij om je kaarten nog makkelijker bij de hand te hebben. \n\nDit is er nieuw:\n• Stempelkaarten: spaar stempels bij je bakker, kapper of koffiebar. Zoek de zaak in Pasr of scan de QR-code bij de kassa. De ondernemer zet de stempel, jij ziet je stand direct\n• Je Wallet-pas werkt zichzelf bij, ook als er een stempel bij komt\n• Verjaardagsvoordeel: vul je verjaardag in en Pasr laat je weten bij welke winkels je iets extra's krijgt\n• Nieuws over mijn kaarten: zet het aan en ontvang alleen berichten over winkels waarvan je een kaart hebt\n• Een gedeelde kaart ziet er op pasr.nl nog beter uit, nu ook voor tickets, abonnementen en stempelkaarten\n• Kleine verbeteringen en oplossingen"
+                    }
+                },
                 {
                     "version": "1.0.3",
                     "date": "2026-11-24",
@@ -284,8 +300,7 @@
             "icon": "img/nl-lrvdlinden-pasr.webp",
             "promo": {
                 "image": {
-                    "nl": "app-content/pasr/promo-nl.webp",
-                    "en": "img/promo-nl-lrvdlinden-pasr-en.webp"
+                    "nl": "app-content/pasr/promo-nl.webp"
                 },
                 "show": true
             },
@@ -294,7 +309,7 @@
                 "nl": "Al je pasjes in één app",
                 "en": "All your cards in one app"
             },
-            "size": "15,7 MB",
+            "size": "16,0 MB",
             "nlOnly": true,
             "added": "2026-11-02",
             "rating": 5.0,
@@ -540,7 +555,8 @@
                 },
                 "show": true
             },
-            "added": "2026-10-24"
+            "added": "2026-10-24",
+            "featured": true
         },
         {
             "id": "healthsync",
@@ -1578,7 +1594,8 @@
                 "show": true
             },
             "rating": 5.0,
-            "reviews": 1
+            "reviews": 1,
+            "featured": true
         },
         {
             "id": "homey-appstoreconnect",
