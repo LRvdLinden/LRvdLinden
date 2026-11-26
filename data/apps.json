@@ -144,7 +144,9 @@
                 "image": {
                     "nl": "app-content/liftr/promo-nl.webp",
                     "en": "app-content/liftr/promo-en.webp"
-                }
+                },
+                "show": true,
+                "auto": true
             },
             "added": "2026-11-04",
             "reviews": 0,
