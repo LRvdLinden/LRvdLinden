@@ -7,7 +7,6 @@
             "added": "2026-11-11",
             "section": "ios",
             "status": "live",
-            "featured": true,
             "category": "utilities",
             "platforms": [
                 "iPhone",
@@ -45,7 +44,7 @@
             "size": "2,2 MB",
             "languages": "NL",
             "nlOnly": true,
-            "rating": 5.0,
+            "rating": 5,
             "reviews": 1
         },
         {
@@ -150,8 +149,7 @@
             },
             "added": "2026-11-04",
             "reviews": 0,
-            "size": "12,9 MB",
-            "featured": true
+            "size": "12,9 MB"
         },
         {
             "id": "nl-lrvdlinden-aalerts",
@@ -220,22 +218,21 @@
             "nlOnly": true,
             "added": "2026-11-08",
             "size": "23,3 MB",
-            "rating": 5.0,
+            "rating": 5,
             "reviews": 1,
-            "featured": true,
             "chart": {
                 "nl": {
                     "rank": 159,
                     "genre": "Nieuws"
                 }
-            }
+            },
+            "featured": true
         },
         {
             "id": "nl-lrvdlinden-pasr",
             "name": "Pasr",
             "section": "ios",
             "status": "live",
-            "featured": true,
             "category": "utilities",
             "platforms": [
                 "iPhone",
@@ -314,15 +311,15 @@
             "size": "16,0 MB",
             "nlOnly": true,
             "added": "2026-11-02",
-            "rating": 5.0,
-            "reviews": 2
+            "rating": 5,
+            "reviews": 2,
+            "featured": true
         },
         {
             "id": "nl-lrvdlinden-weekdot",
             "name": "Weekdot",
             "section": "ios",
             "status": "live",
-            "featured": true,
             "category": "utilities",
             "platforms": [
                 "iPhone",
@@ -422,7 +419,8 @@
             "size": "33,7 MB",
             "reviews": 9,
             "rating": 4.8,
-            "added": "2026-10-25"
+            "added": "2026-10-25",
+            "featured": true
         },
         {
             "id": "bingr",
@@ -450,7 +448,7 @@
                 "nl": "Live tv, films en series uit je eigen IPTV-abonnement of mediaserver. Ondersteunt Xtream Codes, M3U, MAC Portal, Plex, Jellyfin, Emby, Stremio, NAS via SMB en XMLTV. Met tv-gids, profielen, Multiview tot vier streams en synchronisatie tussen je apparaten.",
                 "en": "Live TV, movies and series from your own IPTV subscription or media server. Supports Xtream Codes, M3U, MAC Portal, Plex, Jellyfin, Emby, Stremio, NAS over SMB and XMLTV. With a TV guide, profiles, Multiview for up to four streams and sync across your devices."
             },
-            "rating": 5.0,
+            "rating": 5,
             "reviews": 4,
             "size": "120,2 MB",
             "languages": "NL + 10",
@@ -616,7 +614,7 @@
                     }
                 }
             ],
-            "rating": 5.0,
+            "rating": 5,
             "reviews": 2,
             "promo": {
                 "image": {
@@ -796,7 +794,7 @@
                 "nl": "Evenementen en activiteiten in Park Zuidbroek: kinderevents, festivals, thema-avonden en kerstmarkten in Apeldoorn.",
                 "en": "Events and activities in Park Zuidbroek: kids' events, festivals, theme nights and Christmas markets in Apeldoorn."
             },
-            "rating": 5.0,
+            "rating": 5,
             "reviews": 1,
             "size": "23,1 MB",
             "languages": "EN",
@@ -842,7 +840,7 @@
                 "nl": "Doorzoek wereldwijd onderzeese kabels met gedetailleerde netwerk- en providerprofielen.",
                 "en": "Browse submarine cables worldwide with detailed network and provider profiles."
             },
-            "rating": 5.0,
+            "rating": 5,
             "reviews": 15,
             "size": "15,3 MB",
             "languages": "EN",
@@ -1398,7 +1396,7 @@
                 "nl": "Leer schaken op een eenvoudige manier. Met dark mode en verschillende bordthema's.",
                 "en": "Learn chess the easy way. With dark mode and several board themes."
             },
-            "rating": 5.0,
+            "rating": 5,
             "reviews": 3,
             "size": "1,7 MB",
             "languages": "NL + 3",
@@ -1459,7 +1457,6 @@
             "name": "Noodpakket",
             "section": "ios",
             "status": "live",
-            "featured": true,
             "category": "utilities",
             "description": {
                 "nl": "Scan de barcode van je water, batterijen of blikken en Noodpakket vult de rest in. Zo weet je precies wat er nog ontbreekt voor 72 uur zelfredzaam."
@@ -1495,7 +1492,7 @@
             "added": "2026-11-13",
             "size": "2,9 MB",
             "languages": "NL + 1",
-            "rating": 5.0,
+            "rating": 5,
             "reviews": 1
         },
         {
@@ -1503,7 +1500,6 @@
             "name": "112Heli",
             "section": "ios",
             "status": "beta",
-            "featured": true,
             "category": "utilities",
             "description": {
                 "nl": "Zie live waar de Lifeliner, de politiehelikopter Zulu, de Kustwacht en Defensie vliegen. Je krijgt een melding bij het opstijgen en ziet de landingsplek. De app is gratis."
@@ -1595,9 +1591,8 @@
                 },
                 "show": true
             },
-            "rating": 5.0,
-            "reviews": 1,
-            "featured": true
+            "rating": 5,
+            "reviews": 1
         },
         {
             "id": "homey-appstoreconnect",
@@ -2801,7 +2796,7 @@
             "links": {
                 "homey": "https://homey.app/nl-nl/app/nl.lrvdlinden.lifeliner/"
             },
-            "rating": 5.0,
+            "rating": 5,
             "history": [
                 {
                     "version": "6.1.3",
@@ -3104,7 +3099,7 @@
             "links": {
                 "homey": "https://homey.app/nl-nl/app/nl.lrvdlinden.knmi-weerwaarschuwing/"
             },
-            "rating": 5.0,
+            "rating": 5,
             "history": [
                 {
                     "version": "4.3.5",
