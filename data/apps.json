@@ -428,6 +428,11 @@
         },
         {
             "id": "bingr",
+            "pricing": {
+                "nl": "Eerste 3 dagen gratis",
+                "en": "Free for the first 3 days"
+            },
+            "pricingUrl": "https://bingr.online/upgrade",
             "name": "Bingr",
             "section": "ios",
             "status": "live",
@@ -1518,18 +1523,30 @@
         },
         {
             "id": "112heli",
+            "price": {
+                "amount": 1.99,
+                "nl": "€ 1,99",
+                "en": "$1.99"
+            },
             "name": "112Heli",
             "section": "ios",
-            "status": "beta",
+            "status": "live",
             "category": "utilities",
             "description": {
                 "nl": "Zie live waar de Lifeliner, de politiehelikopter Zulu, de Kustwacht en Defensie vliegen. Je krijgt een melding bij het opstijgen en ziet de landingsplek. De app is gratis."
             },
             "links": {
                 "website": "https://112heli.lrvdlinden.app",
-                "testflight": "https://testflight.apple.com/join/Ny4spxzr"
+                "testflight": "https://testflight.apple.com/join/Ny4spxzr",
+                "appstore": "https://apps.apple.com/us/app/112heli/id6834746641"
             },
-            "history": [],
+            "history": [
+                {
+                    "version": "1.0.0",
+                    "date": "2026-11-28",
+                    "notes": {}
+                }
+            ],
             "added": "2026-11-14",
             "nlOnly": true,
             "icon": "img/112heli.webp",
@@ -1548,7 +1565,9 @@
                 "image": {
                     "nl": "app-content/112heli/promo-nl.webp"
                 }
-            }
+            },
+            "size": "7,1 MB",
+            "languages": "NL"
         },
         {
             "id": "app-lrvdlinden-pasr-zakelijk",
