@@ -302,10 +302,10 @@
             ],
             "icon": "img/nl-lrvdlinden-pasr.webp",
             "promo": {
+                "show": true,
                 "image": {
-                    "nl": "app-content/pasr/promo-nl.webp"
-                },
-                "show": true
+                    "nl": "img/promo-nl-lrvdlinden-pasr-nl.webp"
+                }
             },
             "languages": "NL + 1",
             "subtitle": {
@@ -1526,7 +1526,7 @@
             "price": {
                 "amount": 1.99,
                 "nl": "€ 1,99",
-                "en": "$1.99"
+                "en": "€1.99"
             },
             "name": "112Heli",
             "section": "ios",
@@ -1544,7 +1544,7 @@
                 {
                     "version": "1.0.0",
                     "date": "2026-11-28",
-                    "notes": {}
+                    "notes": []
                 }
             ],
             "added": "2026-11-14",
@@ -1626,10 +1626,10 @@
             "languages": "NL + 1",
             "nlOnly": true,
             "promo": {
+                "show": true,
                 "image": {
-                    "nl": "app-content/pasr-zakelijk/promo-nl.webp"
-                },
-                "show": true
+                    "nl": "img/promo-app-lrvdlinden-pasr-zakelijk-nl.webp"
+                }
             },
             "rating": 5.0,
             "reviews": 1
